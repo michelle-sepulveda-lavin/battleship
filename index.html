@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Battleship</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="parent">
+        <div id="columna1">
+            <div id="superiorBlanco"></div>
+            <div class=" marcadoresL">1</div>
+            <div class=" marcadoresL">2</div>
+            <div class=" marcadoresL">3</div>
+            <div class=" marcadoresL">4</div>
+            <div class=" marcadoresL">5</div>
+            <div class=" marcadoresL">6</div>
+            <div class=" marcadoresL">7</div>
+            <div class=" marcadoresL">8</div>
+            <div class=" marcadoresL">9</div>
+        </div>
+
+        <div id="columna2">
+            <div class="marcadoresS">1</div>
+            <div class="box x1 y1" id="1x 1y"></div>
+            <div class="box x2 y1" id="2x 1y"></div>
+            <div class="box x3 y1" id="3x 1y"></div>
+            <div class="box x4 y1" id="4x 1y"></div>
+            <div class="box x5 y1" id="5x 1y"></div>
+            <div class="box x6 y1" id="6x 1y"></div>
+            <div class="box x7 y1" id="7x 1y"></div>
+            <div class="box x8 y1" id="8x 1y"></div>
+            <div class="box x9 y1" id="9x 1y"></div>
+        </div>
+
+        <div id="columna3">
+            <div class="marcadoresS">2</div>
+            <div class="box x1 y2" id="1x 2y"></div>
+            <div class="box x2 y2" id="2x 2y"></div>
+            <div class="box x3 y2" id="3x 2y"></div>
+            <div class="box x4 y2" id="4x 2y"></div>
+            <div class="box x5 y2" id="5x 2y"></div>
+            <div class="box x6 y2" id="6x 2y"></div>
+            <div class="box x7 y2" id="7x 2y"></div>
+            <div class="box x8 y2" id="8x 2y"></div>
+            <div class="box x9 y2" id="9x 2y"></div>
+            </div>
+        <div id="columna4">
+            <div class="marcadoresS">3</div>
+            <div class="box x1 y3" id="1x 3y"></div>
+            <div class="box x2 y3" id="2x 3y"></div>
+            <div class="box x3 y3" id="3x 3y"></div>
+            <div class="box x4 y3" id="4x 3y"></div>
+            <div class="box x5 y3" id="5x 3y"></div>
+            <div class="box x6 y3" id="6x 3y"></div>
+            <div class="box x7 y3" id="7x 3y"></div>
+            <div class="box x8 y3" id="8x 3y"></div>
+            <div class="box x9 y3" id="9x 3y"></div>
+        </div>
+
+        <div id="columna5">
+            <div class="marcadoresS">4</div>
+            <div class="box x1 y4" id="1x 4y"></div>
+            <div class="box x2 y4" id="2x 4y"></div>
+            <div class="box x3 y4" id="3x 4y"></div>
+            <div class="box x4 y4" id="4x 4y"></div>
+            <div class="box x5 y4" id="5x 4y"></div>
+            <div class="box x6 y4" id="6x 4y"></div>
+            <div class="box x7 y4" id="7x 4y"></div>
+            <div class="box x8 y4" id="8x 4y"></div>
+            <div class="box x9 y4" id="9x 4y"></div>
+        </div>
+
+        <div id="columna6">
+            <div class="marcadoresS">5</div>
+            <div class="box x1 y5" id="1x 5y"></div>
+            <div class="box x2 y5" id="2x 5y"></div>
+            <div class="box x3 y5" id="3x 5y"></div>
+            <div class="box x4 y5" id="4x 5y"></div>
+            <div class="box x5 y5" id="5x 5y"></div>
+            <div class="box x6 y5" id="6x 5y"></div>
+            <div class="box x7 y5" id="7x 5y"></div>
+            <div class="box x8 y5" id="8x 5y"></div>
+            <div class="box x9 y5" id="9x 5y"></div>
+        </div>
+
+        <div id="columna7">
+            <div class="marcadoresS">6</div>
+            <div class="box x1 y6" id="1x 6y"></div>
+            <div class="box x2 y6" id="2x 6y"></div>
+            <div class="box x3 y6" id="3x 6y"></div>
+            <div class="box x4 y6" id="4x 6y"></div>
+            <div class="box x5 y6" id="5x 6y"></div>
+            <div class="box x6 y6" id="6x 6y"></div>
+            <div class="box x7 y6" id="7x 6y"></div>
+            <div class="box x8 y6" id="8x 6y"></div>
+            <div class="box x9 y6" id="9x 6y"></div>
+        </div>
+
+        <div id="columna8">
+            <div class="marcadoresS">7</div>
+            <div class="box x1 y7" id="1x 7y"></div>
+            <div class="box x2 y7" id="2x 7y"></div>
+            <div class="box x3 y7" id="3x 7y"></div>
+            <div class="box x4 y7" id="4x 7y"></div>
+            <div class="box x5 y7" id="5x 7y"></div>
+            <div class="box x6 y7" id="6x 7y"></div>
+            <div class="box x7 y7" id="7x 7y"></div>
+            <div class="box x8 y7" id="8x 7y"></div>
+            <div class="box x9 y7" id="9x 7y"></div>
+        </div>
+
+        <div id="columna9">
+            <div class="marcadoresS">8</div>
+            <div class="box x1 y8" id="1x 8y"></div>
+            <div class="box x2 y8" id="2x 8y"></div>
+            <div class="box x3 y8" id="3x 8y"></div>
+            <div class="box x4 y8" id="4x 8y"></div>
+            <div class="box x5 y8" id="5x 8y"></div>
+            <div class="box x6 y8" id="6x 8y"></div>
+            <div class="box x7 y8" id="7x 8y"></div>
+            <div class="box x8 y8" id="8x 8y"></div>
+            <div class="box x9 y8" id="9x 8y"></div>
+        </div>
+
+        <div id="columna10">
+            <div class="marcadoresS">9</div>
+            <div class="box x1 y9" id="1x 9y"></div>
+            <div class="box x2 y9" id="2x 9y"></div>
+            <div class="box x3 y9" id="3x 9y"></div>
+            <div class="box x4 y9" id="4x 9y"></div>
+            <div class="box x5 y9" id="5x 9y"></div>
+            <div class="box x6 y9" id="6x 9y"></div>
+            <div class="box x7 y9" id="7x 9y"></div>
+            <div class="box x8 y9" id="8x 9y"></div>
+            <div class="box x9 y9" id="9x 9y"></div>
+        </div>
+    </div>
+    <div class="botones">
+        <button id="fire">Fire</button>
+        <button id="showShip">Show Ships</button>
+    </div>
+    
+
+    
+
+<script src="./main.js"></script>
+</body>
+</html>
